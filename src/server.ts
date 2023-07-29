@@ -14,5 +14,5 @@ app.listen({
     port: 3333,
   })
   .then(() => {
-    console.log('HTTP Server. Status: Running')
+    console.log('HTTP Server.\nStatus: Running')
   })
