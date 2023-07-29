@@ -14,5 +14,6 @@ app.listen({
     port: 3333,
   })
   .then(() => {
-    console.log('HTTP Server.\nStatus: Running')
+    const wordstring = 'HTTP Server.\nStatus: Running'
+    console.log(wordstring + "\n\nTo pause the application, press 'Ctrl + C'.")
   })
